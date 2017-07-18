@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: "ZillaSlab-Light", "Arvo","Fira Sans", "Helvetica Neue", "Arial", sans-serif;
+}
+
+@media screen and (max-width: 1100px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 5px;
+  }
+}
+
+/*background colour on .page needs to fill the page height*/
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#my-app {
+  height: 100%;
+}
+
+.page {
+  height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*text styling*/
+
+@font-face {
+  font-family: "ZillaSlab-Light";
+  src: url("/assets/fonts/ZillaSlab-Light.woff");
+}
+
+@font-face {
+  font-family: "ZillaSlab-SemiBold";
+  src: url("/assets/fonts/ZillaSlab-SemiBold.woff");
+}
